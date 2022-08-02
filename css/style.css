@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.flex-row-w{
+    flex-flow: row wrap;
+}
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 1%;
+    height: 100vh;
+}
+main{
+    flex: 3;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+.foto-perfil{
+    width: 50%;
+}
+.img-perfil{
+    padding: 0.5em;
+    border: 5px solid #fff;
+    border-radius: 50px  50px 0;
+}
+hr{
+    margin: 1% 0;;
+}
+nav{
+    margin-top: 1%;
+    text-align: center;
+}
+li{
+    margin-top: .5%;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    color: #ff0101;
+    transition: all .5s;
+}
+h1{
+    color: rgb(201, 2, 2);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+h2{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+h3{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.destacar{
+    color: #050505;
+}
+address{
+    color: #000000;
+}
+address a{
+    color: #000000;
+    text-decoration: none;
+}
+address a:hover{
+    color: #000000;
+    transition: all .5s;
+}
+.sobremim{
+    margin: 2rem 0;
+    color: #030303;
+}
+p a{
+    text-decoration: none;
+    color: #b9b9b9;
+}
+p a:hover{
+    color: rgb(201, 2, 2);
+    transition: all .5s;
+}
+.icon-list{
+    display: flex;
+}
+.bi{
+    font-size: 25px;
+}
+.icon-social{
+    background-color: #000000;
+    border-radius: 10px 0 10px 0;
+    padding: .5% 1%;
+    margin-right: 1.5rem;
+}
+.icon-social:hover{
+    background-color: #ffffff;
+    transition: all .5s;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    flex: 1;
+}
+
+.card__cover {
+    height: 150px;
+    width: 100%;
+}
+.li-style-class {
+    padding: 0px;
+    margin-left: 50px;
+    text-align: left;
+    list-style-type: disc;
+  }
+
+.card__content {
+       flex: 1;
+}
+.container {
+    
+    background-color: rgba(0, 0, 0, 0.1);
+
+    
+    border-radius: 5px 0;
+}
+
+.container__progress {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    
+    background-color: #000000;
+    color: rgb(201, 2, 2);
+
+    
+    border-radius: 5px 0;
+    
+}
